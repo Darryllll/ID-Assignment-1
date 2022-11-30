@@ -13,26 +13,11 @@
 }
 
 body{
-    background-color: #3f3f3f ;
+    background-color: #272727 ;
 }
-.hamburger {
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    margin-left:0px;
-    margin-top:5px;  
-    
-}
-.hamburger-button:hover{
-    background-color: aqua;
-    cursor: pointer;
-    
-    
-}
-.hamburger-button {
-    display:flexbox;
-    height:25px;
-    width:30px;
-    margin-left:6px;    
-
+.robloxlogo{
+    width:100px;   
+    margin-left: 10px;  
+    margin-top: 0px;
+    display:inline-block
 }
