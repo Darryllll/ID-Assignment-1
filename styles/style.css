@@ -1,0 +1,38 @@
+.robloxbg {
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) { 
+    .robloxbg {
+    left: 50%;
+    margin-left: -512px; 
+        }
+}
+
+body{
+    background-color: #3f3f3f ;
+}
+.hamburger {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin-left:0px;
+    margin-top:5px;  
+    
+}
+.hamburger-button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    
+    
+}
+.hamburger-button {
+    display:flexbox;
+    height:25px;
+    width:30px;
+    margin-left:6px;    
+
+}
