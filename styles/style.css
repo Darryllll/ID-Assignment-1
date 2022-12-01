@@ -5,146 +5,59 @@
     position: relative;
 }
 
-@media screen and (max-width: 1024px) { 
-    .robloxbg {
-    left: 50%;
-    margin-left: -512px; 
-        }
+
+* {
+    box-sizing: border-box;
 }
 
 body{
     background-color: #272727 ;
+    
 }
 .logosize {
-    width:90px;
+    width:110px;
     height: 91.438px;
+    margin-left: 5px;
 }
 .robloxlogo{
-    width:82px;   
-    margin-left: 20px;  
-    margin-top: 0px;
-    margin:8px;
+    display: inline-block;
+    width:100%;   
+    
 }
-.Homebutton {
-    font-size: 28px;
-    margin-left:30%;
-    margin-top:-70px;
-    vertical-align: top;
-    border: solid 2px;
-    border-color:rgb(114, 112, 112);
-    background-color: #272727;
-    color: #ffffff;
-    padding-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 8%;
-    transition:0.35s;
+
+.mainbg {
+    position:fixed;
 }
-.Homebutton:hover {
-    background-color: #ffffff;
-    color: #272727;
-    transition: 0.35s;
-    border-radius: 10%;
-    transition:0.35s;
-    cursor: pointer;
-    border-color:rgb(114, 112, 112) ;   
+body {
+    background-image: url("roblox main bg.jpeg"); 
+    background-size: cover;   
 }
-.Discoverbutton {
-    font-size: 28px;
-    margin-left:10%;
-    margin-top:-70px;
-    vertical-align: top;
-    border: solid 2px;
-    border-color:rgb(114, 112, 112);
-    background-color: #272727;
-    color: #ffffff;
-    padding-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 8%;
-    transition:0.35s;
+#buttonsbar {
+    background-color:#000000c0;
+    display:flexbox;   
+    margin-top: 40px;
+    padding: 0px;
 }
-.Discoverbutton:hover {
-    background-color: #ffffff;
-    color: #272727;
-    transition: 0.35s;
-    border-radius: 10%;
-    transition:0.35s;
-    cursor: pointer;
-    border-color:rgb(114, 112, 112) ;   
+#buttons li{
+    display: inline;
 }
-.Loginbutton {
-    font-size: 28px;
-    margin-left:10%;
-    margin-top:-70px;
-    vertical-align: top;
-    border: solid 2px;
-    border-color:rgb(114, 112, 112);
-    background-color: #272727;
-    color: #ffffff;
-    padding-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 8%;
-    transition:0.35s;
+.button{
+    font-size: 20px;
+    padding-left: 0px;
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(165, 165, 165, 0.87);
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.Loginbutton:hover {
-    background-color: #ffffff;
-    color: #272727;
-    transition: 0.35s;
-    border-radius: 10%;
-    transition:0.35s;
-    cursor: pointer;
-    border-color:rgb(114, 112, 112) ;   
+.robloxtext{
+    margin-top: -180px;
+    margin-left: 30%;
+    padding-left: 30px;
+    width:600%;
 }
-.Supportbutton {
-    font-size: 28px;
-    margin-left:10%;
-    margin-top:-70px;
-    vertical-align: top;
-    border: solid 2px;
-    border-color:rgb(114, 112, 112);
-    background-color: #272727;
-    color: #ffffff;
-    padding-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 8%;
-    transition:0.35s;
-}
-.Supportbutton:hover {
-    background-color: #ffffff;
-    color: #272727;
-    transition: 0.35s;
-    border-radius: 10%;
-    transition:0.35s;
-    cursor: pointer;
-    border-color:rgb(114, 112, 112) ;   
-}
-@media screen and (max-width: 1024px) { 
-    .button {
-    left: 5%;
-    margin-left: -100px; 
-        }
-}
-@media screen and (max-width: 1024px) { 
-    .robloxlogo {
-    left: 5%;
-    margin-top: 100px; 
-        }
-}
-@media screen and (max-width: 1024px) { 
-    .Supportbutton {
-    left: 5%;
-    margin-left: 100px; 
-    margin-top: -87px;
-        }
+.button:hover{
+    text-shadow: 2px 2px white;
+
 }
