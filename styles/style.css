@@ -15,9 +15,136 @@
 body{
     background-color: #272727 ;
 }
+.logosize {
+    width:90px;
+    height: 91.438px;
+}
 .robloxlogo{
-    width:90px;   
-    margin-left: 10px;  
+    width:82px;   
+    margin-left: 20px;  
     margin-top: 0px;
-    display:inline-block
+    margin:8px;
+}
+.Homebutton {
+    font-size: 28px;
+    margin-left:30%;
+    margin-top:-70px;
+    vertical-align: top;
+    border: solid 2px;
+    border-color:rgb(114, 112, 112);
+    background-color: #272727;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8%;
+    transition:0.35s;
+}
+.Homebutton:hover {
+    background-color: #ffffff;
+    color: #272727;
+    transition: 0.35s;
+    border-radius: 10%;
+    transition:0.35s;
+    cursor: pointer;
+    border-color:rgb(114, 112, 112) ;   
+}
+.Discoverbutton {
+    font-size: 28px;
+    margin-left:10%;
+    margin-top:-70px;
+    vertical-align: top;
+    border: solid 2px;
+    border-color:rgb(114, 112, 112);
+    background-color: #272727;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8%;
+    transition:0.35s;
+}
+.Discoverbutton:hover {
+    background-color: #ffffff;
+    color: #272727;
+    transition: 0.35s;
+    border-radius: 10%;
+    transition:0.35s;
+    cursor: pointer;
+    border-color:rgb(114, 112, 112) ;   
+}
+.Loginbutton {
+    font-size: 28px;
+    margin-left:10%;
+    margin-top:-70px;
+    vertical-align: top;
+    border: solid 2px;
+    border-color:rgb(114, 112, 112);
+    background-color: #272727;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8%;
+    transition:0.35s;
+}
+.Loginbutton:hover {
+    background-color: #ffffff;
+    color: #272727;
+    transition: 0.35s;
+    border-radius: 10%;
+    transition:0.35s;
+    cursor: pointer;
+    border-color:rgb(114, 112, 112) ;   
+}
+.Supportbutton {
+    font-size: 28px;
+    margin-left:10%;
+    margin-top:-70px;
+    vertical-align: top;
+    border: solid 2px;
+    border-color:rgb(114, 112, 112);
+    background-color: #272727;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8%;
+    transition:0.35s;
+}
+.Supportbutton:hover {
+    background-color: #ffffff;
+    color: #272727;
+    transition: 0.35s;
+    border-radius: 10%;
+    transition:0.35s;
+    cursor: pointer;
+    border-color:rgb(114, 112, 112) ;   
+}
+@media screen and (max-width: 1024px) { 
+    .button {
+    left: 5%;
+    margin-left: -100px; 
+        }
+}
+@media screen and (max-width: 1024px) { 
+    .robloxlogo {
+    left: 5%;
+    margin-top: 100px; 
+        }
+}
+@media screen and (max-width: 1024px) { 
+    .Supportbutton {
+    left: 5%;
+    margin-left: 100px; 
+    margin-top: -87px;
+        }
 }
