@@ -10,11 +10,14 @@ body{
 }
 .robloxlogo{
     display: flexbox;
-    width:110%;    
+    width:110%; 
+    margin-top: -30%;   
 }
-
 .mainbg {
     position:fixed;
+}
+.robloxlogo{
+    margin-bottom: 45px;
 }
 
 #buttonsbar {
@@ -40,7 +43,7 @@ body{
     margin-right:8%;
 }
 .robloxtext{
-    margin-top: -180px;
+    margin-top: -270px;
     margin-left: 30%;
     padding-left: 30px;
     width:600%;
@@ -81,7 +84,7 @@ body{
     width:100%;
     flex-basis: 80%;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom:5px;
 
 }
 .studioinfo{
@@ -101,4 +104,12 @@ body{
 }
 .a:visited{
     color: aqua;
+}
+.content{
+    margin-bottom:5px;
+}
+.robuxlogo{
+    width:30%;
+    display:inline;
+    padding-left: 1000px;
 }
