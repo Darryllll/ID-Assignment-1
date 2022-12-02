@@ -11,7 +11,8 @@ body{
 .robloxlogo{
     display: flexbox;
     width:110%; 
-    margin-top: -30%;   
+    margin-top: 2%; 
+    margin-left: 2px;
 }
 .mainbg {
     position:fixed;
@@ -63,7 +64,7 @@ body{
     background-color:rgba(0, 0, 0, 0.3);
     width:40%;
     margin-left: 10%;
-    margin-right: 0px;
+    margin-right: 0%;
     max-width: 40%;
     justify-content:center;
 }
@@ -112,3 +113,9 @@ body{
     width:30%;
     display:inline;
 }
+.robloxvid{
+    margin-left: 100%;
+    margin-top: -80%;
+    vertical-align:middle
+}
+
