@@ -164,7 +164,7 @@ body{
     background-color: aliceblue rgba(240, 248, 255, 0.473);
 }
 .mainbody1 {
-    background-image: url("../pictures/robloxbgg.webp");
+    background-image: url("../pictures/robloxbggg.jpg");
     background-blend-mode:difference;  
     margin-left: 0%;
     margin-right: 0%;
@@ -200,10 +200,15 @@ body{
     font-weight: bolder;
 }
 .titleh{
-    color: darkslategrey;
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    margin: 0%;
 }
 .horrorgame1{
     max-width:100%;
     margin-left: 5.5%;
     width:80%;
+}
+#buttons{
+    margin:0;
 }
