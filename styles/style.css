@@ -105,7 +105,7 @@ body{
 }
 .a:visited{
     color: aqua;
-}
+} 
 .content{
     margin-bottom:5px;
 }
@@ -117,5 +117,31 @@ body{
     margin-left: 100%;
     margin-top: -80%;
     vertical-align:middle
+}
+.director{
+    margin-left: 100%;
+    margin-top: -70%;
+    display:absolute;
+    font-size:50px ;
+    background-color: #ff0000;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-left: 50%;
+    padding-right: 80%;
+}
+.davidd{
+    display:inline;
+    margin-left: 100%;
+    width:45%;
+}
+.davidname{
+    margin-left: 100%;
+    width: 50%;
+    font-size: 28px;
+}
+.davidd{
+    display:inline;
+    margin-left: 100%;
+    width:45%;
 }
 
