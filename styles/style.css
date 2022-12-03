@@ -139,9 +139,12 @@ body{
     width: 50%;
     font-size: 28px;
 }
-.davidd{
+.erik{
     display:inline;
     margin-left: 100%;
     width:45%;
+    margin-top: -100%;
+    margin-bottom: 21%;
+    padding-left: 50%;
 }
 
