@@ -131,20 +131,23 @@ body{
 }
 .davidd{
     display:inline;
-    margin-left: 100%;
+    margin-left: 150%;
     width:45%;
 }
 .davidname{
-    margin-left: 100%;
+    margin-left: 150%;
     width: 50%;
     font-size: 28px;
 }
+
+.erikname{
+    margin-left: 150%;
+    margin-top: -60%;
+}
 .erik{
-    display:inline;
+    display:absolute;
     margin-left: 100%;
     width:45%;
-    margin-top: -100%;
-    margin-bottom: 21%;
-    padding-left: 50%;
+    margin-top: -150%;
+    margin-bottom: 32.5%;
 }
-
