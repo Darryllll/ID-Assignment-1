@@ -157,10 +157,50 @@ body{
 }
 .aboutus{
     font-size: 100px;
-    margin:0;
-    font-family: sans-serif;
-    color: rgb(255, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    color: rgb(209, 209, 209);
     margin-left: 37%;
-    background-color: aliceblue;
-    margin-right: 670px;
+    background-color: aliceblue rgba(240, 248, 255, 0.473);
+}
+.mainbody1 {
+    background-image: url("../pictures/robloxsecbg1.jpg");
+    background-blend-mode:difference;  
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.horror1{
+    width: 25%;
+}
+.horror{
+    display: flex;
+    align-content: center;
+    margin-left: 5%;
+    margin-right:5%;
+}
+.horror1txt{
+   font-size: 40px;
+   background-color: aqua;
+   margin:0;
+}
+.hh{
+    font-size: 45px;
+    margin:0;
+    background-color: rgba(240, 248, 255, 0.527);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.redr{
+    color: #ff0000;
+    font-weight: bolder;
+}
+.titleh{
+    color: darkslategrey;
+}
+.horrorgame1{
+    max-width:100%;
+    margin-left: 5%;
 }
