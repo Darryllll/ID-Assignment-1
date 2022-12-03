@@ -164,11 +164,11 @@ body{
     background-color: aliceblue rgba(240, 248, 255, 0.473);
 }
 .mainbody1 {
-    background-image: url("../pictures/robloxsecbg1.jpg");
+    background-image: url("../pictures/robloxbgg.webp");
     background-blend-mode:difference;  
     margin-left: 0%;
     margin-right: 0%;
-    background-color: #000000;
+    background-color: #00000004;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,8 +184,10 @@ body{
 }
 .horror1txt{
    font-size: 40px;
-   background-color: aqua;
+   background-color: rgba(0, 0, 0, 0.747);
    margin:0;
+   color: rgb(255, 19, 19);
+   font-family:serif;
 }
 .hh{
     font-size: 45px;
@@ -202,5 +204,6 @@ body{
 }
 .horrorgame1{
     max-width:100%;
-    margin-left: 5%;
+    margin-left: 5.5%;
+    width:80%;
 }
