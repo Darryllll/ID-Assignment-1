@@ -205,6 +205,7 @@ body{
     margin: 0%;
     font-family: monospace;
     margin-left: 5%;
+    background-color: black;
 }
 .horrorgame1{
     max-width:100%;
@@ -215,16 +216,119 @@ body{
     margin:0;
 }
 .titler{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 85, 232);
     font-size: 50px;
     margin: 0%;
     font-family: monospace;
     margin-left: 5%;
+    background-color: blueviolet;
 }
 .rpgtxt{
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.747);
     margin:0;
-    color: rgb(255, 19, 19);
+    color: rgb(216, 19, 255);
     font-family:monospace;
  }
+ .titlef{
+    color: rgb(146, 146, 146);
+    font-size: 50px;
+    margin: 0%;
+    font-family: monospace;
+    margin-left: 5%;
+    background-color: rgb(58, 41, 11);
+}
+.fpstxt{
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.747);
+    margin:0;
+    color: rgb(109, 109, 109);
+    font-family:monospace;
+ }
+ .mainbody2 {
+    background-image: url("../pictures/robloxsecbg1.jpg");
+    background-blend-mode:difference;  
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #00000004;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logintitle{
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.mainform{
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    font-size: 30px;
+    color: aliceblue;
+}
+.loginbg{
+    background-color: rgba(0, 0, 0, 0.774);
+    margin-left: 35%;
+    margin-right: 35%;
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: flex;
+  }
+#submit{
+    height:40px;
+    width: 100px;
+    margin-bottom: 10%;
+    background: none;
+    border:2px solid;
+    border-color: #ff0000;
+    color: azure;
+    margin-left: 50%;
+    font-size: 20px;
+    border-radius: 10%;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: azure;
+    color: #ff0000;
+    transition: 0.35s;
+}
+#username{
+    margin: 0;
+    border-color: #ff0000;
+    margin-top: -2px;
+}
+#password{
+    margin: 0%;
+    border-color: #ff0000;
+    height:30px;
+    display: flex;
+    margin-top: -2px;
+}
+.fpass{
+    color: maroon;
+    margin-top: -20%;
+    font-size: 20px;
+}
+.or{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+.mainbody3 {
+    background-image: url("../pictures/supportbg1.png");
+    background-blend-mode:difference;  
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
