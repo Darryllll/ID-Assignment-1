@@ -342,3 +342,7 @@ input[type=text] {
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.botbut{
+    margin-left: 8%;
+    font-size: 25px;
+}
