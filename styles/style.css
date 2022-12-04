@@ -205,7 +205,7 @@ body{
     margin: 0%;
     font-family: monospace;
     margin-left: 5%;
-    background-color: rgb(59, 56, 56);
+    background-color: rgba(59, 56, 56, 0.562);
 }
 .horrorgame1{
     max-width:100%;
