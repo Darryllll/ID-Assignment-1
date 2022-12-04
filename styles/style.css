@@ -221,7 +221,7 @@ body{
     margin: 0%;
     font-family: monospace;
     margin-left: 5%;
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.61);
 }
 .rpgtxt{
     font-size: 40px;
