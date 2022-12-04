@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <link href="styles/style.css" rel="stylesheet" type="text/css" />
-        <title>Roblox webby:Join</title>
+        <title>Roblox webby:Support</title>
     </head>
     <body>
         <div class="navbar">
@@ -24,10 +24,20 @@
             </div>
         </div>
     </body>  
-    <body class="mainbody3"></body>
-        <div>
-            <div>LOGIN</div>
-            <form>
+    <body class="mainbody3">
+        <div class="loginbg">
+            <div class="supporttitle">Report an issue</div>
+            <form class="mainform">
+                <div>
+                    <input type="radio" id="contactChoice1" name="contact" value="Account" />
+                    <label for="contactChoice1">Account</label>
+              
+                    <input type="radio" id="contactChoice2" name="contact" value="Billing" />
+                    <label for="contactChoice2">Billing</label>
+              
+                    <input type="radio" id="contactChoice3" name="contact" value="Gameplay" />
+                    <label for="contactChoice3">Gameplay</label>
+                  </div>
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username"><br>
                 <label type="password">Password:</label><br>
@@ -37,4 +47,3 @@
             </form>
         </div>
     </body>
-</html>
