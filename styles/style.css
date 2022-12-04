@@ -346,3 +346,9 @@ input[type=text] {
     margin-left: 8%;
     font-size: 25px;
 }
+.supportbg{
+    background-color: rgba(0, 0, 0, 0.774);
+}
+.aboutt{
+    font-size: 40px;
+}
