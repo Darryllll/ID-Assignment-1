@@ -31,7 +31,7 @@ body{
 }
 .button{
     font-size: 20px;
-    margin-left: 8%;
+    margin-left: 6%;
     font-weight:bold;
     font-size: 35px;
     color: rgba(255, 255, 255, 0.87);
@@ -41,7 +41,7 @@ body{
     border-radius: 8px;
     border:2px solid;
     text-decoration: none;
-    margin-right:8%;
+    margin-right:6%;
 }
 .robloxtext{
     margin-top: -270px;
@@ -118,6 +118,7 @@ body{
     margin-left: 100%;
     margin-top: -80%;
     vertical-align:middle
+    
 }
 .director{
     margin-left: 100%;
@@ -352,12 +353,12 @@ input[type=text] {
 .aboutt{
     font-size: 40px;
     color: rgb(184, 0, 9);
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 .emaill{
     font-size: 40px;
     color: rgb(184, 0, 9);
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
